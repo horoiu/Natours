@@ -274,6 +274,7 @@ body {
     margin-bottom: .5rem;
     display: inline-block;
     background-image: linear-gradient(to right, #55c57a, #28b485);
+    -webkit-background-clip: text;
     background-clip: text;
     color: transparent; }
   .feature-box:hover {
