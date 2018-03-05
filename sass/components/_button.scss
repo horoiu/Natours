@@ -62,7 +62,7 @@
         top: 0;
         left: 0;
         z-index: -1;
-        transition: all .3s;
+        transition: all .4s;
     }
     
     &--animated {
@@ -91,7 +91,7 @@
     }
 
     &:active {
-        box-shadow: 0 .5rem 2rem rgba($color-black, .15);
+        box-shadow: 0 .5rem 1rem rgba($color-black, .15);
         transform: translateY(0);
     }
 }
