@@ -20,6 +20,7 @@
     margin-top: -10rem;
 
     @media (min-resolution: 192dpi) and (min-width: 37.5em),
+           (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
            (min-width: 125em) {
                 background-image: linear-gradient(
                     to right bottom, 
@@ -72,6 +73,7 @@
     box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
 
     @media (min-resolution: 192dpi) and (min-width: 37.5em),
+           (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
            (min-width: 125em) {
                 background-image: linear-gradient(105deg, 
                     rgba($color-white, .9) 0%,
@@ -89,6 +91,7 @@
         background-size: cover;
 
         @media (min-resolution: 192dpi) and (min-width: 37.5em),
+               (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
                (min-width: 125em) {
                     background-image: linear-gradient(105deg, 
                         rgba($color-white, .9) 0%,
